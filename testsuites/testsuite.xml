@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Swap API Use cases verification" verbose="1" >   
+   
+  	<test name="Find film with the latest release date and tallest person from that film" >
+        <classes>
+            <class name="test.scenarios.UserTestSteps" >
+            	<methods>
+        			<include name="findFilmByLatestReleaseDate"/>    
+        			<include name="findTallestPersonFromLatestFilm"/>    
+      			</methods>
+            </class>
+        </classes>
+    </test>
+    
+   <test name="Find the tallest person ever played in any Star Wars film" >
+        <classes>
+            <class name="test.scenarios.UserTestSteps" >
+            	<methods>
+        			<include name="findTallestPersonFromStarwarsFilm"/>        
+      			</methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Create contract (Json schema validation) test for /people API" >
+    	<parameter name = "jsonSchema" value="peopleJsonSchema.json"/>
+        <classes>
+            <class name="test.scenarios.UserTestSteps" >
+            	<methods>
+        			<include name="createJsonSchemaValidationForPeopleAPI"/>        
+      			</methods>
+            </class>
+        </classes>
+    </test>
+      
+</suite>
+
