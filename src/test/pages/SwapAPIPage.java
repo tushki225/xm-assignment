@@ -39,7 +39,7 @@ public class SwapAPIPage {
 			datesList.add(dates);
 		
 		String latestDate = TestUtils.getLatestDate(datesList);
-		System.out.println("Latest Date is::" + latestDate);
+		System.out.println("Latest Release Date is::" + latestDate);
 		System.out.println("Film with Latest Release date is::" + filmDetails.get(latestDate));
 		return latestDate;	 	 		
     }	
@@ -120,6 +120,7 @@ public class SwapAPIPage {
 	//Validate Json schema for People API
 	public void validateSchema(String path, String jsonSchema) { 
 		try {
+			
 			File schema = new File(Config.getJsonSchemaPath()+jsonSchema);
 			RestUtils.jSONSchemaValidation(path, schema);				    	    	
 		}

@@ -8,7 +8,7 @@ public class Constants {
 	public static final String TESTS_ENDED="---Test Ended::: ";
 	public static final String RESPONSE_CODE="Response code is::";	
 	public static final String FILMS_RESOURCE_IDENTIFIER="resource_films";	
-	public static final String PEOPLE_RESOURCE_IDENTIFIER="resource_films";	
+	public static final String PEOPLE_RESOURCE_IDENTIFIER="resource_people";	
 	public static final String WINDOWS_OS="win";	
 	public static final String USER_DIR_IDENTIFIER="user.dir";
 	public static final String OS_IDENTIFIER="os.name";	

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T14:48:45 CET" name="Swap API Use cases verification" finished-at="2023-11-10T14:53:37 CET" duration-ms="291787">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T14:48:45 CET" name="Find film with the latest release date and tallest person from that film" finished-at="2023-11-10T14:49:53 CET" duration-ms="68156">
+      <class name="test.scenarios.UserTestSteps">
+        <test-method signature="findFilmByLatestReleaseDate(org.testng.ITestContext)[pri:0, instance:test.scenarios.UserTestSteps@25fb8912]" started-at="2023-11-10T14:48:45 CET" name="findFilmByLatestReleaseDate" finished-at="2023-11-10T14:48:57 CET" duration-ms="11466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@548a24a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFilmByLatestReleaseDate -->
+        <test-method signature="findTallestPersonFromLatestFilm(org.testng.ITestContext)[pri:0, instance:test.scenarios.UserTestSteps@25fb8912]" started-at="2023-11-10T14:48:57 CET" name="findTallestPersonFromLatestFilm" finished-at="2023-11-10T14:49:53 CET" duration-ms="56627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@548a24a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTallestPersonFromLatestFilm -->
+      </class> <!-- test.scenarios.UserTestSteps -->
+    </test> <!-- Find film with the latest release date and tallest person from that film -->
+    <test started-at="2023-11-10T14:49:53 CET" name="Find the tallest person ever played in any Star Wars film" finished-at="2023-11-10T14:53:27 CET" duration-ms="213926">
+      <class name="test.scenarios.UserTestSteps">
+        <test-method signature="findTallestPersonFromStarwarsFilm(org.testng.ITestContext)[pri:0, instance:test.scenarios.UserTestSteps@27f981c6]" started-at="2023-11-10T14:49:53 CET" name="findTallestPersonFromStarwarsFilm" finished-at="2023-11-10T14:53:27 CET" duration-ms="213852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5feb82b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTallestPersonFromStarwarsFilm -->
+      </class> <!-- test.scenarios.UserTestSteps -->
+    </test> <!-- Find the tallest person ever played in any Star Wars film -->
+    <test started-at="2023-11-10T14:53:27 CET" name="Create contract (Json schema validation) test for /people API" finished-at="2023-11-10T14:53:37 CET" duration-ms="9647">
+      <class name="test.scenarios.UserTestSteps">
+        <test-method is-config="true" signature="getConfig()[pri:0, instance:test.scenarios.UserTestSteps@55634720]" started-at="2023-11-10T14:48:45 CET" name="getConfig" finished-at="2023-11-10T14:48:45 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConfig -->
+        <test-method signature="createJsonSchemaValidationForPeopleAPI(java.lang.String,org.testng.ITestContext)[pri:0, instance:test.scenarios.UserTestSteps@55634720]" started-at="2023-11-10T14:53:27 CET" name="createJsonSchemaValidationForPeopleAPI" finished-at="2023-11-10T14:53:37 CET" duration-ms="9625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peopleJsonSchema.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@571f6b61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJsonSchemaValidationForPeopleAPI -->
+      </class> <!-- test.scenarios.UserTestSteps -->
+    </test> <!-- Create contract (Json schema validation) test for /people API -->
+  </suite> <!-- Swap API Use cases verification -->
+</testng-results>
